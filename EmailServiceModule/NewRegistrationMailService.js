@@ -2,8 +2,8 @@ const mailSender = require("./MailService")
 const sendNewRegistrationMail =(newUser)=>{
     const newUserRegistration = async (mailbody) => {
         const info = await mailSender.sendMail({
-          from: "teamzigmabank04@gmail.com",
-          to: "teamzigmabank04@gmail.com",
+          from: "zigmabank25@gmail.com",
+          to: "zigmabank25@gmail.com",
           subject: "New Account Registration",
           html: mailbody,
         })

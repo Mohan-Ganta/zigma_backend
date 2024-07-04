@@ -3,8 +3,8 @@ const mailSender = nodemailer.createTransport(
   {
     service: 'gmail',
     auth: {
-      user: 'teamzigmabank04@gmail.com',
-      pass: 'hwhyhsfbvzwqkafa',
+      user: 'zigmabank25@gmail.com',
+      pass: 'xtqqlufdmkhdcszj',
     },
   }
 )

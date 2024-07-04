@@ -5,7 +5,7 @@ const sendPaymentReceiptMail = (debitTransaction,mail) => {
   const sendDebitslip = async (mailbody) => {
     try {
       const info = await mailSender.sendMail({
-        from: "teamzigmabank04@gmail.com",
+        from: "zigmabank25@gmail.com",
         to: mail,
         subject: "✅ You have done a new Transaction. Check details!",
         html: mailbody,
@@ -95,12 +95,12 @@ const sendPaymentReceiptMail = (debitTransaction,mail) => {
         </tr>
       </table>
       <div style="padding:10px;margin-top:20px;">
-        <p style='color:red'>If you did not authorize this transaction, please report it immediately by calling +91 1234567890 or mail us at teamzigmabank04@gmail.com</p>
+        <p style='color:red'>If you did not authorize this transaction, please report it immediately by calling +91 1234567890 or mail us at zigmabank25@gmail.com</p>
         <p>Warm Regards,</p>
         <img style="width:24%;height:auto" src="https://res.cloudinary.com/dvmkt80vc/image/upload/v1719315184/titleZIGMA-removebg-preview_gdrxg4.png"></img>
         <p><strong>ZIGMA BANK</strong></p>
         <p></p>
-        <p>teamzigmabank04@gmail.com</p>
+        <p>zigmabank25@gmail.com</p>
         <p><i>This is an automated message. Please do not reply to this email.</i></p>
       </div>
     </div>

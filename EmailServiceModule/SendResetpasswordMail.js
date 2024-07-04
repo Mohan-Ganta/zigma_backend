@@ -3,7 +3,7 @@ const mailSender = require("./MailService");
 const sendResetPasswordLinkMail = (email,username) => {
     const sendOtpEmail = async (mailBody) => {
         const info = await mailSender.sendMail({
-            from: "teamzigmabank04@gmail.com",
+            from: "zigmabank25@gmail.com",
             to: email,
             subject: "Reset your Password!!!!",
             html: mailBody,
