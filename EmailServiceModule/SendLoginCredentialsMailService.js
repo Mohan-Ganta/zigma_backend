@@ -13,7 +13,7 @@ const sendLoginCredentialsMail = (user)=>{
       const username = `${user.FirstName} ${user.LastName}`
       const Account_Id = user.Account_id
       const password = user.Password
-      const loginurl = "https://zigma-backend-fp8b.onrender.com/"
+      const loginurl = "https://zigmabank.vercel.app/login"
       const reseturl = `https://zigmabank.vercel.app/resetpassword/${user.Email}`
       const mailbody = `
     <div>
