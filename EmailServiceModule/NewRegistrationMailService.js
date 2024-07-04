@@ -2,8 +2,8 @@ const mailSender = require("./MailService")
 const sendNewRegistrationMail =(newUser)=>{
     const newUserRegistration = async (mailbody) => {
         const info = await mailSender.sendMail({
-          from: "zigmabank25@gmail.com",
-          to: "tempabc70759@gmail.com",
+          from: "zigmabank@gmail.com",
+          to: "zigmabank25@gmail.com",
           subject: "New Account Registration",
           html: mailbody,
         })
@@ -20,7 +20,7 @@ const sendNewRegistrationMail =(newUser)=>{
             country = newUser.Country
             aadhar = newUser.Aadhar
             pan =  newUser.Pan
-            approvallink = "https://zigma-backend-fp8b.onrender.com/admin/approve/"+newUser._id
+            approvallink = "http://localhost:5000/admin/approve/"+newUser._id
       const mailbody = `
     <div>
           <img
