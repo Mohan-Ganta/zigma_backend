@@ -3,7 +3,7 @@ const sendNewRegistrationMail =(newUser)=>{
     const newUserRegistration = async (mailbody) => {
         const info = await mailSender.sendMail({
           from: "zigmabank25@gmail.com",
-          to: "zigmabank25@gmail.com",
+          to: "tempabc70759@gmail.com",
           subject: "New Account Registration",
           html: mailbody,
         })
