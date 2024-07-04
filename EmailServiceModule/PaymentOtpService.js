@@ -8,7 +8,7 @@ const generatePaymentOtp = () => {
 const sendPaymentOtpService = (email, username, amount) => {
     const sendOtpEmail = async (mailBody) => {
         const info = await mailSender.sendMail({
-            from: "zigmabank@gmail.com",
+            from: "teamzigmabank04@gmail.com",
             to: email,
             subject: "Payment Verification OTP",
             html: mailBody,

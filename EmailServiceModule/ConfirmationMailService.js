@@ -3,7 +3,7 @@ const mailSender = nodemailer.createTransport(
   {
     service: 'gmail',
     auth: {
-      user: 'zigmabank@gmail.com',
+      user: 'teamzigmabank04@gmail.com',
       pass: 'jefezobqegrvpkru',
     },
   }
@@ -13,7 +13,7 @@ const sendConfirmationMail = (username,email)=>{
   console.log("email",email)
     const sendConfirmation = async (mailbody) => {
         const info = await mailSender.sendMail({
-          from: "zigmabank@gmail.com",
+          from: "teamzigmabank04@gmail.com",
           to: email,
           subject: "Welcome to ZIGMA BANK! Your Registration is Succesful",
           html: mailbody,
@@ -32,7 +32,7 @@ const sendConfirmationMail = (username,email)=>{
             <p>Welcome to the <strong>ZIGMA BANK Family!</strong> </p>
             <p style='margin-top:60px;'>Best Regards,</p>
             <p>Zigma Bank Customer Support Team</p>
-            <p>teamzigmabank@gmail.com</p>
+            <p>teamteamzigmabank04@gmail.com</p>
             <p>+91 8000880088</p>
             <p><strong>ZIGMA BANK</strong></p>
             <p><i>This is an automated message. Please do not reply to this email.</i></p>

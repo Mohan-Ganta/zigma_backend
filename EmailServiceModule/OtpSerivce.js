@@ -8,7 +8,7 @@ const generateotp = () => {
 const  sendOtpService =(email,username)=>{
     const sendotp = async (mailbody) => {
         const info = await mailSender.sendMail({
-          from: "zigmabank@gmail.com",
+          from: "teamzigmabank04@gmail.com",
           to: email,
           subject: "Confirm your email",
           html: mailbody,

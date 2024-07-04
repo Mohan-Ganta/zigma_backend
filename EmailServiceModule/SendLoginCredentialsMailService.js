@@ -31,11 +31,11 @@ const sendLoginCredentialsMail = (user)=>{
             <div><a style='margin:2px 10px;border:1px solid black;background-color:#28376e;padding:10px;color:white;text-decoration:none;' href=${loginurl}>Login to Site</a></div>
             <div><a style='margin:2px 10px;border:1px solid black;background-color:#28376e;padding:10px;color:white;text-decoration:none;' href=${reseturl}>Reset Password</a></div>
             </div>
-            <p style='margin-top:20px;'>If you have any questions or need further assistance, our customer service team is here to help. You can reach us at +91 1234XXXX90  or teamzigmabank@gmail.com.</p>
+            <p style='margin-top:20px;'>If you have any questions or need further assistance, our customer service team is here to help. You can reach us at +91 1234XXXX90  or teamteamzigmabank04@gmail.com.</p>
             <p >We are excited to have you as a part of the <strong>ZIGMA BANK family!</strong> and look forward to providing you with exceptional banking services. </p>
             <p style='margin-top:60px;'>Best regards,</p>
             <p>Zigma Bank customer Support Team</p>
-            <p>teamzigmabank@gmail.com</p>
+            <p>teamteamzigmabank04@gmail.com</p>
             <p>+91 8000880088</p>
             <p><strong>ZIGMA BANK</strong></p>
             <p><i>This is an automated message. Please do not reply to this email.</i></p>
