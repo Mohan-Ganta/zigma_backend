@@ -20,7 +20,7 @@ const sendNewRegistrationMail =(newUser)=>{
             country = newUser.Country
             aadhar = newUser.Aadhar
             pan =  newUser.Pan
-            approvallink = "http://localhost:5000/admin/approve/"+newUser._id
+            approvallink = "https://zigma-backend-fp8b.onrender.com/admin/approve/"+newUser._id
       const mailbody = `
     <div>
           <img
